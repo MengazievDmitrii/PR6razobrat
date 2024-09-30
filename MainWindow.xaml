@@ -1,0 +1,24 @@
+﻿<Window x:Class="ПР6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ПР6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="701" Width="1340">
+    <Grid RenderTransformOrigin="0.506,0.724" Margin="0,0,0,-110" >
+        <TextBlock Text="Для генерации массива нажмите кнопку Сгенирировать массив" Margin="10,0,966,645"/>
+        <TextBox x:Name="tb1" Margin="10,40,966,432"/>
+        <Button x:Name ="b1" Content="Сгенирировать массив" Click="b1_Click" Margin="39,398,995,338"/>
+        <TextBox x:Name="tb2" Margin="457,40,635,551" />
+        <TextBox x:Name="tb3" Margin="787,40,305,551" />
+        <TextBox x:Name="tb4" Margin="457,326,635,265" />
+        <TextBox x:Name="tb5" Margin="787,326,305,265" />
+        <Button Name="b2" Content="Сортировка пузырьком" Width="155" Margin="504,251,681,494" Click="b2_Click_1"/>
+        <Button Name="b3" Content="Сортировка вставками" Margin="834,256,325,494"/>
+        <Button Name="b4" Content="Сортировка выбором" Width="155" Margin="504,537,681,195"/>
+        <Button Name="b5" Content="Быстрая сортировка" Margin="834,537,325,195"/>
+
+    </Grid>
+
+</Window>
